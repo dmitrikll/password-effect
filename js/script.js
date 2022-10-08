@@ -3,7 +3,6 @@ const eye = document.querySelector('.pwd .fa-eye-slash');
 const lock = document.querySelector('.pwd .fa-lock');
 const overlay = document.querySelector('.pwd .overlay');
 
-// add click event to the eye icon
 eye.addEventListener('click', () => {
     if (input.type === 'password') {
         input.type = 'text';
